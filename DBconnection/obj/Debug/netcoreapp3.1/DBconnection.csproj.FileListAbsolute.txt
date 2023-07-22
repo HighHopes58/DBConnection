@@ -5,7 +5,6 @@ D:\c_shap_lessons\DBconnection\DBconnection\bin\Debug\netcoreapp3.1\DBconnection
 D:\c_shap_lessons\DBconnection\DBconnection\bin\Debug\netcoreapp3.1\DBconnection.dll
 D:\c_shap_lessons\DBconnection\DBconnection\bin\Debug\netcoreapp3.1\DBconnection.pdb
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.csproj.AssemblyReference.cache
-D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.Form1.resources
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.csproj.GenerateResource.cache
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.GeneratedMSBuildEditorConfig.editorconfig
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.AssemblyInfoInputs.cache
@@ -14,3 +13,5 @@ D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.dll
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.pdb
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.genruntimeconfig.cache
+D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.Properties.Resources.resources
+D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.MainForm.resources

@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace DBconnection
 {
-	public partial class Form1 : Form
+	public partial class MainForm : Form
 	{
-		public Form1()
+		public MainForm()
 		{
 			InitializeComponent();
 		}
 
+		private void Exit_File_MainMenu_Click(object sender, EventArgs e)
+		{
+			Close();
+		}
 	}
 }

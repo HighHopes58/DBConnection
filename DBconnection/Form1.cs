@@ -17,7 +17,12 @@ namespace DBconnection
 			InitializeComponent();
 		}
 
-		private void Exit_File_MainMenu_Click(object sender, EventArgs e)
+		private void mmExit_Click(object sender, EventArgs e)
+		{
+			Close();
+		}
+
+		private void mmNewConnection_Click(object sender, EventArgs e)
 		{
 			Close();
 		}

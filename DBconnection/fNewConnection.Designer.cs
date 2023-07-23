@@ -37,7 +37,7 @@
 			this.labelUser = new System.Windows.Forms.Label();
 			this.tbUser = new System.Windows.Forms.TextBox();
 			this.labelPassword = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.tbPassword = new System.Windows.Forms.TextBox();
 			this.cbShowPW = new System.Windows.Forms.CheckBox();
 			this.SuspendLayout();
 			// 
@@ -122,12 +122,13 @@
 			this.labelPassword.TabIndex = 8;
 			this.labelPassword.Text = "Password:";
 			// 
-			// textBox1
+			// tbPassword
 			// 
-			this.textBox1.Location = new System.Drawing.Point(87, 144);
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(219, 23);
-			this.textBox1.TabIndex = 9;
+			this.tbPassword.Location = new System.Drawing.Point(87, 144);
+			this.tbPassword.Name = "tbPassword";
+			this.tbPassword.Size = new System.Drawing.Size(219, 23);
+			this.tbPassword.TabIndex = 9;
+			this.tbPassword.UseSystemPasswordChar = true;
 			// 
 			// cbShowPW
 			// 
@@ -139,6 +140,7 @@
 			this.cbShowPW.TabIndex = 10;
 			this.cbShowPW.Text = "Show Password";
 			this.cbShowPW.UseVisualStyleBackColor = true;
+			this.cbShowPW.CheckedChanged += new System.EventHandler(this.cbShowPW_CheckedChanged);
 			// 
 			// fNewConnection
 			// 
@@ -147,7 +149,7 @@
 			this.ClientSize = new System.Drawing.Size(353, 273);
 			this.ControlBox = false;
 			this.Controls.Add(this.cbShowPW);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.tbPassword);
 			this.Controls.Add(this.labelPassword);
 			this.Controls.Add(this.tbUser);
 			this.Controls.Add(this.labelUser);
@@ -177,7 +179,7 @@
 		private System.Windows.Forms.Label labelUser;
 		private System.Windows.Forms.TextBox tbUser;
 		private System.Windows.Forms.Label labelPassword;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox tbPassword;
 		private System.Windows.Forms.CheckBox cbShowPW;
 	}
 }

@@ -24,5 +24,17 @@ namespace DBconnection
 		{
 			Close();
 		}
+
+		private void cbShowPW_CheckedChanged(object sender, EventArgs e)
+		{
+			if (cbShowPW.Checked)
+			{
+				tbPassword.UseSystemPasswordChar = false;
+			}
+			else
+			{
+				tbPassword.UseSystemPasswordChar = true;
+			}
+		}
 	}
 }

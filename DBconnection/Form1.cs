@@ -24,7 +24,8 @@ namespace DBconnection
 
 		private void mmNewConnection_Click(object sender, EventArgs e)
 		{
-			Close();
+			fNewConnection formNewConnection = new fNewConnection();
+			formNewConnection.ShowDialog();
 		}
 	}
 }

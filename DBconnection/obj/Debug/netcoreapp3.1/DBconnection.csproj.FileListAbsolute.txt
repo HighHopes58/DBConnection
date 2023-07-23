@@ -15,3 +15,4 @@ D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.genruntimeconfig.cache
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.Properties.Resources.resources
 D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.MainForm.resources
+D:\c_shap_lessons\DBconnection\DBconnection\obj\Debug\netcoreapp3.1\DBconnection.fNewConnection.resources

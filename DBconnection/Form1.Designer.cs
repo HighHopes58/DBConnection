@@ -59,19 +59,19 @@
 			// mmNewConnection
 			// 
 			this.mmNewConnection.Name = "mmNewConnection";
-			this.mmNewConnection.Size = new System.Drawing.Size(180, 22);
+			this.mmNewConnection.Size = new System.Drawing.Size(163, 22);
 			this.mmNewConnection.Text = "New Connection";
 			this.mmNewConnection.Click += new System.EventHandler(this.mmNewConnection_Click);
 			// 
 			// toolStripSeparator1
 			// 
 			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+			this.toolStripSeparator1.Size = new System.Drawing.Size(160, 6);
 			// 
 			// mmExit
 			// 
 			this.mmExit.Name = "mmExit";
-			this.mmExit.Size = new System.Drawing.Size(180, 22);
+			this.mmExit.Size = new System.Drawing.Size(163, 22);
 			this.mmExit.Text = "Exit";
 			this.mmExit.Click += new System.EventHandler(this.mmExit_Click);
 			// 
@@ -81,8 +81,10 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.MainMenu);
+			this.HelpButton = true;
 			this.MainMenuStrip = this.MainMenu;
 			this.Name = "MainForm";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "DB Connection for php site";
 			this.MainMenu.ResumeLayout(false);
 			this.MainMenu.PerformLayout();

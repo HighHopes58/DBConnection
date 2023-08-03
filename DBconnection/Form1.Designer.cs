@@ -33,6 +33,7 @@
 			this.mmNewConnection = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
 			this.mmExit = new System.Windows.Forms.ToolStripMenuItem();
+			this.label1 = new System.Windows.Forms.Label();
 			this.MainMenu.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -75,11 +76,21 @@
 			this.mmExit.Text = "Exit";
 			this.mmExit.Click += new System.EventHandler(this.mmExit_Click);
 			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Location = new System.Drawing.Point(291, 198);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(51, 15);
+			this.label1.TabIndex = 1;
+			this.label1.Text = "asdfasdf";
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.label1);
 			this.Controls.Add(this.MainMenu);
 			this.HelpButton = true;
 			this.MainMenuStrip = this.MainMenu;
@@ -100,5 +111,6 @@
 		private System.Windows.Forms.ToolStripMenuItem mmNewConnection;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
 		private System.Windows.Forms.ToolStripMenuItem mmExit;
+		private System.Windows.Forms.Label label1;
 	}
 }

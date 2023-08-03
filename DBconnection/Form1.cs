@@ -15,6 +15,7 @@ namespace DBconnection
 		public MainForm()
 		{
 			InitializeComponent();
+			label1.Text = DB_test.DB_path;
 		}
 
 		private void mmExit_Click(object sender, EventArgs e)

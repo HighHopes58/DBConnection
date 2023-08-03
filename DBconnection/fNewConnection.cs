@@ -22,6 +22,8 @@ namespace DBconnection
 
 		private void btnConnect_Click(object sender, EventArgs e)
 		{
+
+			DB_test.DB_path = tbPath.Text;
 			Close();
 		}
 
@@ -35,6 +37,8 @@ namespace DBconnection
 			{
 				tbPassword.UseSystemPasswordChar = true;
 			}
+
+
 		}
 	}
 }

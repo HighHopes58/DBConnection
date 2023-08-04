@@ -111,6 +111,6 @@
 		private System.Windows.Forms.ToolStripMenuItem mmNewConnection;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
 		private System.Windows.Forms.ToolStripMenuItem mmExit;
-		private System.Windows.Forms.Label label1;
+		internal System.Windows.Forms.Label label1;
 	}
 }

@@ -10,8 +10,11 @@ namespace DBconnection
 {
 	public partial class fNewConnection : Form
 	{
-		public fNewConnection()
+
+		MainForm mainForm; 
+		public fNewConnection(MainForm owner)
 		{
+			mainForm = owner;
 			InitializeComponent();
 		}
 
@@ -24,6 +27,7 @@ namespace DBconnection
 		{
 
 			DB_test.DB_path = tbPath.Text;
+			mainForm.label1.Text = tbPath.Text;
 			Close();
 		}
 

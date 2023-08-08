@@ -11,7 +11,7 @@ namespace DBconnection
 	public partial class fNewConnection : Form
 	{
 
-		MainForm mainForm; 
+		MainForm mainForm;
 		public fNewConnection(MainForm owner)
 		{
 			mainForm = owner;
@@ -25,24 +25,17 @@ namespace DBconnection
 
 		private void btnConnect_Click(object sender, EventArgs e)
 		{
-
-			DB_test.DB_path = tbPath.Text;
-			mainForm.label1.Text = tbPath.Text;
+			//variables visualisation temporary 
+			mainForm.labelPath.Text = tbPath.Text;
+			mainForm.labelDB_name.Text = tbDB_name.Text;
+			mainForm.labelUser.Text = tbUser.Text;
+			mainForm.labelPass.Text = tbPassword.Text;
 			Close();
 		}
-
+		//hide-show password
 		private void cbShowPW_CheckedChanged(object sender, EventArgs e)
 		{
-			if (cbShowPW.Checked)
-			{
-				tbPassword.UseSystemPasswordChar = false;
-			}
-			else
-			{
-				tbPassword.UseSystemPasswordChar = true;
-			}
-
-
+			tbPassword.UseSystemPasswordChar = cbShowPW.Checked ? false : true;
 		}
 	}
 }

@@ -33,7 +33,7 @@
 			this.tbPath = new System.Windows.Forms.TextBox();
 			this.labelPath = new System.Windows.Forms.Label();
 			this.labelDB = new System.Windows.Forms.Label();
-			this.tbDB = new System.Windows.Forms.TextBox();
+			this.tbDB_name = new System.Windows.Forms.TextBox();
 			this.labelUser = new System.Windows.Forms.Label();
 			this.tbUser = new System.Windows.Forms.TextBox();
 			this.labelPassword = new System.Windows.Forms.Label();
@@ -90,12 +90,12 @@
 			this.labelDB.TabIndex = 4;
 			this.labelDB.Text = "Database:";
 			// 
-			// tbDB
+			// tbDB_name
 			// 
-			this.tbDB.Location = new System.Drawing.Point(87, 63);
-			this.tbDB.Name = "tbDB";
-			this.tbDB.Size = new System.Drawing.Size(219, 23);
-			this.tbDB.TabIndex = 5;
+			this.tbDB_name.Location = new System.Drawing.Point(87, 63);
+			this.tbDB_name.Name = "tbDB_name";
+			this.tbDB_name.Size = new System.Drawing.Size(219, 23);
+			this.tbDB_name.TabIndex = 5;
 			// 
 			// labelUser
 			// 
@@ -153,7 +153,7 @@
 			this.Controls.Add(this.labelPassword);
 			this.Controls.Add(this.tbUser);
 			this.Controls.Add(this.labelUser);
-			this.Controls.Add(this.tbDB);
+			this.Controls.Add(this.tbDB_name);
 			this.Controls.Add(this.labelDB);
 			this.Controls.Add(this.labelPath);
 			this.Controls.Add(this.tbPath);
@@ -175,7 +175,7 @@
 		private System.Windows.Forms.TextBox tbPath;
 		private System.Windows.Forms.Label labelPath;
 		private System.Windows.Forms.Label labelDB;
-		private System.Windows.Forms.TextBox tbDB;
+		private System.Windows.Forms.TextBox tbDB_name;
 		private System.Windows.Forms.Label labelUser;
 		private System.Windows.Forms.TextBox tbUser;
 		private System.Windows.Forms.Label labelPassword;

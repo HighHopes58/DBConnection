@@ -15,7 +15,13 @@ namespace DBconnection
 		public MainForm()
 		{
 			InitializeComponent();
-			label1.Text = DB_test.DB_path;
+
+			//variables visualisation temporary
+			labelPath.Text = DB_variables.DB_path;
+			labelDB_name.Text = DB_variables.DB_name;
+			labelUser.Text = DB_variables.DB_user;
+			labelPass.Text = DB_variables.DB_pass;
+
 		}
 
 		private void mmExit_Click(object sender, EventArgs e)
@@ -28,5 +34,7 @@ namespace DBconnection
 			fNewConnection formNewConnection = new fNewConnection(this);
 			formNewConnection.Show();
 		}
+
+		
 	}
 }

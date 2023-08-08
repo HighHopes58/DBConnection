@@ -17,16 +17,13 @@ namespace DBconnection
 		[STAThread]
 		static void Main()
 		{
-			//string stPathDatabse = null;
-			//string stDatabase = null;
-			//string stUser = null;
-			//string stPassword = null;
+			
 
 
-			DB_variables.DB_path = "Path";
-			DB_variables.DB_name = "DB Name";
-			DB_variables.DB_user = "User";
-			DB_variables.DB_pass = "Password";
+			//DB_variables.DB_path = "Path";
+			//DB_variables.DB_name = "DB Name";
+			//DB_variables.DB_user = "User";
+			//DB_variables.DB_pass = "Password";
 			
 
 			Application.SetHighDpiMode(HighDpiMode.SystemAware);
@@ -42,13 +39,13 @@ namespace DBconnection
 	internal static class DB_variables
 	{
 		//in New Connection Form - tbPath
-		internal static string DB_path { get; set; }
+		internal static string DB_path { get; set; } = "Path";
 		//in New Connection Form - tbDB_name
-		internal static string DB_name { get; set; }
+		internal static string DB_name { get; set; } = "DB Name";
 		//in New Connection Form - tbUser		
-		internal static string DB_user { get; set; }
+		internal static string DB_user { get; set; } = "User";
 		//in New Connection Form - tbPassword		
-		internal static string DB_pass { get; set; }
+		internal static string DB_pass { get; set; } = "Password";
 
 	}
 
